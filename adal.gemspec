@@ -23,12 +23,12 @@
 require File.expand_path('../lib/adal/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = 'adal'
+  s.name = 'custom-adal'
   s.version = ADAL::Version
 
   s.summary = 'ADAL for Ruby'
   s.description = 'Windows Azure Active Directory authentication client library'
-  s.homepage = 'http://github.com/AzureAD/azure-activedirectory-library-for-ruby'
+  s.homepage = 'https://github.com/dhamkur/custom-adal'
   s.license = 'MIT'
 
   s.require_paths = ['lib']
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.1.0'
 
-  s.add_runtime_dependency 'jwt', '~> 1.5'
+  s.add_runtime_dependency 'jwt', '~> 2.7.0'
   s.add_runtime_dependency 'nokogiri', '~> 1.6'
   s.add_runtime_dependency 'uri_template', '~> 0.7'
 
